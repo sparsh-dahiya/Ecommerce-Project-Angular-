@@ -1,0 +1,49 @@
+<div class="my-orders  entire-page">
+    <h1>My Orders</h1>
+    <div class="row order-data">
+        <div class="col-sm-2 headings">
+            <span>Order</span>
+        </div>
+        <div class="col-sm-2 headings" >
+            <span>Order Id</span>
+        </div>
+        <div class="col-sm-2 headings" >
+            <span>Price(Rs)</span>
+
+        </div>
+
+        <div class="col-sm-2 headings" >
+            <span>Status</span>
+    
+        </div>
+
+        <div class="col-sm-2 headings">
+            <span>Action</span>
+    
+        </div>
+    </div>
+
+    <div class="row order-data" *ngFor="let order of orderData" >
+        <div class="col-sm-2">
+            <img  class="order-image" src="https://www.iconpacks.net/icons/2/free-shopping-cart-icon-3041-thumb.png">
+        </div>
+        <div class="col-sm-2">
+            <span>#{{order.id}}</span>
+        </div>
+        <div class="col-sm-2">
+            <span>{{order.totalPrice}}</span>
+
+        </div>
+
+        <div class="col-sm-2">
+            <span>In Process</span>
+    
+        </div>
+
+        <div class="col-sm-2">
+            <button class="cancelOrder" (click)="cancelOrder(order.id)"  >Cancel Order</button>
+    
+        </div>
+    </div>
+
+</div>

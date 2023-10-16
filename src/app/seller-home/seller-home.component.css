@@ -1,0 +1,34 @@
+
+table{
+    text-align: left;
+    border-collapse: collapse;
+    color:blueviolet
+    
+}
+
+table td , table th {
+    border :1px solid blueviolet;
+    padding:10px;
+    min-height:190px;
+   
+}
+table th{
+    font-weight:bolder;
+}
+img{
+    height:100px
+    
+    
+    
+}
+.deleteButton{
+     cursor: pointer;
+    
+}
+.editIcon{
+    margin-left: 50px;
+}
+.productList h1{
+    text-align: center;
+    color:blueviolet;
+}

@@ -1,0 +1,51 @@
+.checkout h1{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color:blueviolet
+}
+
+.checkout h3{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color:blueviolet;
+}
+
+.orderNow{
+    width:50%;
+    color:white;
+    background-color: blueviolet;
+    border-radius: 5px;
+    border: none;
+}
+
+.final{
+    margin-top: 50px;
+}
+
+.final h3{
+    color:blueviolet
+}
+
+.form-input-order{
+    width:50%;
+    margin-bottom: 10px;
+    border: 2px solid blueviolet;
+}
+
+.total{
+    color:black;
+}
+
+.payment{
+    color: blueviolet;
+}
+
+.orderMessage{
+    color:white;
+    background-color:blueviolet;
+    width:30%;
+    border-radius:5px;
+    text-align:center;
+}

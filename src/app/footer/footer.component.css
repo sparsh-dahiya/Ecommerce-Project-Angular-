@@ -1,0 +1,35 @@
+
+.footer-contents{
+    display:flex;
+    justify-content: space-between;
+    color:blueviolet;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: white;
+    
+    
+    
+    
+}
+.footer-logo{
+    
+    text-align: center;
+    color:blueviolet;
+    position:fixed;
+    bottom:0;
+    left:0;
+    right:0;
+    background-color: white;
+    
+    
+
+    
+}
+.footer-links{
+cursor: pointer;
+color:blueviolet;
+text-decoration: none;
+}
+

@@ -1,0 +1,14 @@
+.Signup h1{
+    text-align: center;
+    color: blueviolet;
+}
+
+.formSwitch{
+    cursor: pointer;
+    color:black
+    }
+
+.seller-auth{
+    margin-top: 50px;
+}
+

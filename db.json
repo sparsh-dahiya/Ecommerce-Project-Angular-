@@ -1,0 +1,140 @@
+{
+  "seller": [
+    {
+      "name": "sparsh",
+      "email": "sparshdahiya999@mail.com",
+      "password": "abc@123",
+      "id": 1
+    },
+    {
+      "name": "cool",
+      "password": "qwert",
+      "email": "golu@gmail.com",
+      "id": 2
+    },
+    {
+      "name": "bmw",
+      "password": "m5",
+      "email": "bmw@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "",
+      "password": "",
+      "email": "",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "Samsung",
+      "price": "45000",
+      "color": "Red",
+      "category": "Mobile",
+      "description": "12 MP camera",
+      "image": "https://m.media-amazon.com/images/I/91PCzkdmUwL.jpg",
+      "id": 12
+    },
+    {
+      "name": "Nike ",
+      "price": "8000",
+      "color": "white",
+      "category": "Shoes",
+      "description": "Sports shoes",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210301/tsLz/603d02f77cdb8c1f14528ea2/-473Wx593H-460846192-white-MODEL.jpg",
+      "id": 13
+    },
+    {
+      "name": "Alienware",
+      "price": "200000",
+      "color": "black",
+      "category": "Laptop",
+      "description": "Gaming",
+      "image": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/franchise/alienware/laptop/prod-1750-notebook-alienware-m15-r7-black-800x550.png?wid=800&hei=550",
+      "id": 14
+    },
+    {
+      "name": "Motorola",
+      "price": "120000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "12 MP CAMERA, Foldable",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Moto-Razr-2022-1.jpeg",
+      "id": 15
+    }
+  ],
+  "users": [
+    {
+      "name": "sparsh",
+      "email": "sparshdahiya999@gmail.com",
+      "password": "sparsh1",
+      "id": 1
+    },
+    {
+      "name": "sandeep",
+      "email": "sparshdahiya999@gmail.com",
+      "password": "sandeep1",
+      "id": 2
+    },
+    {
+      "name": "tony",
+      "email": "sparshdahiya999@gmail.com",
+      "password": "tony1",
+      "id": 3
+    },
+    {
+      "name": "test",
+      "email": "test@gmail.com",
+      "password": "boom",
+      "id": 4
+    },
+    {
+      "name": "golu",
+      "email": "smack123@gmail.com",
+      "password": "smack",
+      "id": 5
+    },
+    {
+      "name": "sparsh",
+      "email": "sparshdahiya999@gmail.com",
+      "password": "zxcv",
+      "id": 6
+    }
+  ],
+  "cart": [
+    {
+      "name": "Samsung",
+      "price": "45000",
+      "color": "Red",
+      "category": "Mobile",
+      "description": "12 MP camera",
+      "image": "https://m.media-amazon.com/images/I/91PCzkdmUwL.jpg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 12,
+      "id": 8
+    },
+    {
+      "name": "Motorola",
+      "price": "120000",
+      "color": "Black",
+      "category": "Mobile",
+      "description": "12 MP CAMERA, Foldable",
+      "image": "https://www.91-cdn.com/hub/wp-content/uploads/2022/07/Moto-Razr-2022-1.jpeg",
+      "quantity": 1,
+      "userId": 1,
+      "productId": 15,
+      "id": 10
+    }
+  ],
+  "orders": [
+    {
+      "email": "sparshdahiya999@gmail.com",
+      "address": "sector-23,#2301",
+      "contact": "09991848801",
+      "userData": 1,
+      "totalPrice": 315100,
+      "id": 2
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+.user-auth h1{
+    color:blueviolet;
+    text-align: center;
+}
+.user-auth{
+    margin-top: 50px;
+   
+}
+.user-login{
+    margin-top: 90px;
+}
+
+.formSwitch{
+    color:blueviolet;
+}
+
+.formSwitchLink{
+    cursor: pointer;
+    text-decoration: none;
+    color:blueviolet
+}
+.invalidInput{
+    color:rgb(255, 0, 0);
+    margin-top: -15px;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}

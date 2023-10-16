@@ -1,0 +1,47 @@
+.entire-page{
+    border: 2px solid blueviolet;
+    background-color: rgba(137, 43, 226, 0.322);
+    border-radius:15px ;
+    margin-top:120px
+}
+.my-orders h1{
+    margin-top:50px;
+    margin-bottom:50px;
+    margin-left: 30px;
+    color:blueviolet;
+}
+
+.my-orders .order-image{
+    width:70px;
+    
+}
+
+.order-data{
+    width:100%;
+    margin-left:0px;
+    margin-top:10px;
+    margin-bottom: 10px;
+    display:flex;
+    align-items: center;
+    color:blueviolet;
+    background-color:rgba(137, 43, 226, 0.322);
+    border :2px solid white;
+    
+    
+    
+}
+
+.headings{
+    color:blueviolet;
+    font-weight: 800;
+    
+    
+}
+
+.cancelOrder{
+    border: 1px solid blueviolet;
+    border-radius: 5px;
+    background-color: blueviolet;
+    color:blueviolet;
+    color:white;
+}

@@ -1,0 +1,30 @@
+<div class="row product-details" *ngIf="productInfo">
+    <div class="col-sm-6">
+        <img  class="productimage" src="{{productInfo.image}}" alt="">
+    </div>
+    <div class="col-sm-6">
+        <div class="details ">
+            <h1 class="product-name">{{productInfo.name}}</h1>
+            <h3>Price : {{productInfo.price}}</h3>
+            <div>
+                Color:
+                <h5  [style.backgroundColor]="productInfo.color" class="product-color"></h5>
+            </div>
+            <h6>Category : {{productInfo.category}}</h6>
+            <h6>Description : {{productInfo.description}}</h6>
+            <button *ngIf="!removeCart" class="action-button" (click)="AddToCart()">Add to Cart</button>
+            <button  *ngIf="removeCart"  class="action-button" (click)="RemoveToCart(productInfo.id)" >Remove From Cart</button>
+            <button class="action-button" routerLink ="/cart-page" >Buy Now </button>
+            <div class="quantity-group">
+                <button (click)="handleQuantity('min')" class="action-button-number" >-</button>  
+                <input  class="item-count" type="text" value="{{productQuantity}}">
+                <button (click)="handleQuantity('plus')" class="action-button-number">+</button>
+                
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
